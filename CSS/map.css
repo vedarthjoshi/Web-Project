@@ -1,0 +1,65 @@
+.map{
+    width: 80%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(197, 228, 255, 0.249);
+    
+    border-radius: 30px;
+    border-style: solid;
+    border-color: aliceblue;
+    z-index: -1;
+
+
+}
+
+.circle1,.circle2, .circle3{
+    margin: 20px;
+
+    height: 7em;
+    width: 7em;
+
+    border-style: dashed;
+    border-color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
+    border-radius: 600px;
+    /* background-color: hsla(195, 71%, 31%, 0.696); */
+
+    background-color: #8000ff;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Poiret One', cursive;
+    align-content: space-between;
+    z-index: 1;
+
+    transition: 1s;
+}
+
+.circle1:hover,.circle2:hover,.circle3:hover{
+    background-color: #f11a53c8;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    cursor: pointer;
+}
+
+.lable{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poiret One', cursive;
+}
