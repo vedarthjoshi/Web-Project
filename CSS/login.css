@@ -1,30 +1,47 @@
 * {
-    margin: 0;
-    padding: 0;
+    font-weight: bolder;
+    /* margin: 0;
+    padding: 0; */
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif ;
+    /* font-family: "Poppins", sans-serif ; */
+    font-family: 'Poiret One', cursive;
 }
 
-body {
+body{
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
     background:linear-gradient(-135deg, rgba(0, 159, 111, 0.819),rgb(0, 213, 255),rgb(0, 81, 255));
     /*background-color:seagreen;*/
 }
 
+.login-shi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    padding: 80px;
+    font-size: 50px;
+}
+
 .wrapper {
-    width: 420px;
-    background: linear-gradient(0deg, rgba(81, 0, 255, 0.819),rgba(0, 109, 163, 0.726));
+    width: 450px;
+    background: linear-gradient(0deg, rgba(9, 0, 49, 0),rgba(81, 0, 255, 0.607));
     color: white;
-    border-radius: 10px;
+    border-radius: 0px;
     padding: 30px 40px;
 }
 
 .wrapper h1{
-    font-size: 36px;
+    padding: 50px;
+    font-size: 35px;
     text-align: center;
 }
 
@@ -42,11 +59,14 @@ body {
     background: transparent;
     border: none;
     outline: none;
-    border: 2px solid rgba(255,255,255,.2);
+    border: 2px solid rgba(0, 255, 76, 0.671);
     border-radius: 40px; 
     font-size: 16px;
+    letter-spacing: 3px;
     color: #fff;
     padding: 20px 45px 20px 20px;
+    background-color: #0017757f;
+
 }
 
 .input-box input::placeholder {
@@ -59,37 +79,49 @@ body {
     top: 50%;
     transform: translateY(-50%);
     font-size: 20px;
+    color: aliceblue;
 }
 
-.wrapper .remember-forgot {
+/* .wrapper .remember-forgot {
     display: flex;
     justify-content: space-between;
     font-size: 14.5px;
-    margin: -15px 0 15px; 
-}
+    /* margin: -15px 0 15px;  */
+    /* margin: 200px;
+} */
 
-.remember-forgot label input{
+/* .remember-forgot label input{
     accent-color: white;
-    margin-right: 3px;
-}
+    margin-right: 30px;
+} */
 
-.remember-forgot a{
+/* .remember-forgot a{
     color: white;
     text-decoration: none;
 }
 
 .remember-forgot a:hover{
+    background-color: #750000;
     text-decoration: underline;
-}
+    /* text-decoration: overline;
+} */
 
 /* forgot password  */
 .forgot-pwd{
-    margin-left: 80px;
+    font-size: 20px;
+    margin-left: 10px;
+    color: rgb(92, 0, 163);
+    padding: 20px;
+}
+
+.forgot-pwd:hover{
     
+    border-style: dotted;
+    border-radius: 20px;
 }
 
 .wrapper .btn{
-    margin-top: 20px;
+    margin-top: 65px;
     width: 100%;
     height: 45px;
     background: white;
@@ -98,26 +130,58 @@ body {
     border-radius: 40px;
     box-shadow: 0 0 10px rgba(0,0,0,.1);
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px;
     color: #333;
     font-weight: 600;
+
+    transition: 0.5s;
+
 }
 
 
+.btn:hover{
+    background: rgb(255, 217, 0);
+    background: rgb(0, 255, 238);
+
+}
+
+.btn:active{
+    /* background: linear-gradient(90deg, rgba(0, 255, 225, 0.4), rgba(115, 0, 255, 0.477)); */
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    /* background: linear-gradient(90deg, rgba(255, 217, 0, 0.409),rgba(0, 255, 204, 0.477)); */
+}
 
 .wrapper .register-link {
-    font-size: 14.5px;
+    font-size: 20px;
     text-align: center;
-    margin: 20px 0 15px;
-
+    margin: 50px 0 20px;
+    
 }
 
 .register-link p a {
-    color:#fff;
+    color:#750000;
     text-decoration: none;
     font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
 
 .register-link p a:hover {
-   text-decoration: underline; 
+   /* text-decoration: underline;  */
+    border-style: dotted;
+    border-radius: 20px;
+   /* color: aliceblue; */
+}
+
+a{
+    text-decoration: none;
+}
+
+.remenber-forgot{
+    margin-top: 60px;
+    margin-left: 30px;
 }

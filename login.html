@@ -4,13 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="CSS/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="CSS/login.css">
 </head>
 <body>
+    <header>
+        <nav class="nav-bar">
+            <ul class="link-list-home">
+                <li class="each-link"><a class="link-size" href="index.html">START<span class="X">x</span></a></li>
+            </ul>
+            <ul class="link-list">
+                <li class="each-link"><a class="link-size" href="Services.html">Services</a></li>
+                <li class="each-link"><a class="link-size" href="about.html">About</a></li>
+                <li class="each-link"><a class="link-size" href="contect.html">Contect</a></li>
+                <li class="each-link"><a class="link-size" href="login.html">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="login-shi">
+        <h1 class="head">Welcome Back</h1>
     <div class="wrapper"> 
         <form action="">
-            <h1>Login</h1>
+            <h1>Sign in</h1>
             <div class= "input-box">
                 <input type="text" placeholder="Username"
                 required>
@@ -22,7 +39,7 @@
                 <i class='bx bxs-lock-alt'></i>
             </div>
             <div class="remenber-forgot">
-                <lable><input type = "checkbox"> Remember me 
+                <lable><input type = "checkbox" class="rem-me"> Remember me 
                 </lable>
                 <a class="forgot-pwd" href="#">Forgot password?</a>
             </div> 
@@ -32,5 +49,7 @@
             </div>
         </form>
     </div>
+    </div>
+        
 </body>
 </html>
