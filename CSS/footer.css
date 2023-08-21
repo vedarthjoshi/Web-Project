@@ -32,6 +32,7 @@
 }
 
 .foot-li1{
+    border-radius: 20px;
     display: flex;
     padding-left: 20px;
     padding-right: 20px;
@@ -39,9 +40,10 @@
 }
 
 .foot-li a{
+
    transition: 2s;
    padding: 20px;
-   margin: 5px;
+   margin: 10px;
 }
 
 .foot-li a:hover{
@@ -70,4 +72,25 @@
 }
 .foot-li1:hover{
     background: #8000ff;
+}
+
+a{
+    color: aliceblue;
+}
+
+.foot-faq{
+    margin-top: -5px;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 1s;
+}
+.foot-faq:hover{
+    background: #8000ff;
+}
+
+.foot-li a:visited{
+    color: aliceblue;
 }

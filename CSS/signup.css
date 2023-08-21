@@ -1,0 +1,85 @@
+
+.signup-body{
+    height: 100vh;
+    background:  linear-gradient(-135deg, rgba(0, 159, 111, 0.819),rgb(0, 213, 255),rgb(0, 81, 255));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background: linear-gradient(0deg, rgba(9, 0, 49, 0),rgba(81, 0, 255, 0.607));
+    height: auto;
+    width: 650px;
+    color: aliceblue;
+    border-radius: 30px;
+    position: relative;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 50px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    justify-content: center;
+    border: solid 1px white;
+    background-color: #0017757f;
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+    font-family: 'Poiret One', cursive;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.nameelse{
+    margin-left: 75px;
+}
+
+.login{
+    margin-left: 200px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.login:hover{
+    border-style: dotted;
+    border-radius: 20px;
+    border-color: black;
+}
+select{
+    background-color: #0017757f;
+    color: white;
+    border-radius: 10px;
+    width: 120px;
+    text-align: center;
+}
+option{
+    background-color: rgb(114, 53, 53);
+    color: white;
+}
+.submit button{
+    width: 78%;
+    border: 1px solid white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    position: relative;
+    margin-left: 75px;
+    height: 40px;
+    font-size: 20px;
+    /* opacity: 100%; */
+    margin-top: 25px;
+}
+
+button:hover{
+    /* opacity: 20%;    */
+    background: rgba(255, 255, 255, 0.406);
+}

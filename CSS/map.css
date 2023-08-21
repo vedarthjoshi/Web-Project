@@ -1,4 +1,4 @@
-.map{
+.map, .faq{
     width: 80%;
     /* height: 100vh; */
     margin-top: 100px;
@@ -73,4 +73,59 @@
     display: flex;
     justify-content: center;
     font-family: 'Poiret One', cursive;
+}
+
+/* main faq card div */
+.faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Poiret One', cursive;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+/* inside main faq title */
+.faq-head{
+    text-align: center;
+    margin: 40px;
+}
+
+/* inside main faq under the title */
+.faq-sides{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* inside the faq-sides  */
+.faq-content-left{
+    text-align: left;
+    margin-bottom: 30px;
+    padding: 20px;
+    /* border-style: solid;
+    border-radius: 20px; */
+    color: white;
+    letter-spacing: 2px;
+}
+.faq-content-left h1{
+    font-size: 160%;
+    margin-bottom: 50px;
+}
+.faq-content-left h1 a{
+    padding: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+    transition: background 1s;
+}
+
+.faq-content-left h1 a:hover{
+    background: #8000ff;
+}
+
+.hehe{
+    height: 100vh;
+}
+.border a{
+    width: fit-content;
+    block-size: fit-content;
 }
