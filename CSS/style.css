@@ -145,6 +145,39 @@ body{
     
 }
 
+.back{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sheading{
+    font-family:'Poiret One', cursive;
+    font-size: 70px;
+    position:sticky;
+    margin-bottom: -200px;
+    margin-top: 100px
+}
+
+.sbtn{
+    font-family: 'Poiret One', cursive;
+    padding: 3rem;
+    font-size: 30px;
+    margin: 50px;
+    transition: 1s;
+    font-weight: bold;
+    background: linear-gradient(0deg,rgb(93, 98, 255), rgba(0, 255, 140, 0.487));
+}
+.sbtn:hover{
+    background: #8000ff;
+    color: aliceblue;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
 .abt-body{
     background: linear-gradient(0deg,rgba(60, 213, 255, 0.819), rgba(0, 5, 159, 0.819));
 }
